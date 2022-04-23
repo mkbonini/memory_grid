@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Grid Practice</title>
+  <meta name="description" content="Grid-game">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div id="game-container">
+    <h1 id="title">Memory Grid</h1>
+    <div class="grid-container">
+        <div id="b0" onclick="guess(this.id)"></div>
+        <div id="b1" onclick="guess(this.id)"></div>
+        <div id="b2" onclick="guess(this.id)"></div>  
+        <div id="b3" onclick="guess(this.id)"></div>
+        <div id="b4" onclick="guess(this.id)"></div>
+        <div id="b5" onclick="guess(this.id)"></div>  
+        <div id="b6" onclick="guess(this.id)"></div>
+        <div id="b7" onclick="guess(this.id)"></div>
+        <div id="b8" onclick="guess(this.id)"></div>
+        
+
+      </div>
+      <h2 id="result"></h2>
+      <button type="button" class="button" id="start" onclick="runGame()">Start Game</button> 
+      <p id="cheat"></p> 
+      <p id="cheater"></p> 
+    </div>
+</body>
+</html>
